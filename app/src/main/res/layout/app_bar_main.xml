@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.xuant.mediaplayer.View.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorWhite"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayout"
+                app:tabTextColor="@color/colorTabWidget"
+                app:tabSelectedTextColor="@color/colorYahoo"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="210dp"
+                app:tabTextAppearance="@style/YourTextAppareance"
+                android:layout_height="match_parent"
+                app:tabPadding="0dp"
+                android:layout_marginRight="100dp"
+                app:tabIndicatorColor="@color/colorYahoo"
+                style="@style/TabLayouts"
+                />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</android.support.design.widget.CoordinatorLayout>

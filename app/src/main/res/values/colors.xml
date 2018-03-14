@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="footer_border">#A7A7AA</color>
+    <color name="footer_background">#F6F6F7</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#EFEFEF</color>
+    <color name="colorChangeCity">#E3E3E3</color>
+    <color name="colorFoody">#c00</color>
+    <color name="colorGreen">#03ae03</color>
+    <color name="colorGreen2">#2E8249</color>
+    <color name="colorGreen3">#78D577</color>
+    <color name="colorSelected">#EAEAEA</color>
+    <color name="colorTabWidget">#545454</color>
+    <color name="colorArrowDown">#BFBFBF</color>
+    <color name="colorAvgRating">#03ae03</color>
+    <color name="colorOrange">#F57835</color>
+    <color name="colorDeli">#D02128</color>
+    <color name="colorBlue">#034EA1</color>
+    <color name="colorFacebook">#3C579E</color>
+    <color name="colorGoogle">#B23121</color>
+    <color name="colorTwitter">#2EA6DE</color>
+    <color name="colorYahoo">#720E9E</color>
+    <color name="colorWhite_Transparent">#2fffffff</color>
+    <color name="colorScreen_Play">#26182A</color>
+
+</resources>

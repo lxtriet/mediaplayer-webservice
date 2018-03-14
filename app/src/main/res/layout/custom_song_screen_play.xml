@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:paddingTop="3dp"
+    android:background="@color/colorScreen_Play">
+    <TextView
+        android:layout_width="0dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_weight="1"
+        android:textColor="@color/colorWhite"
+        android:layout_height="match_parent"
+        android:text="1"
+        android:id="@+id/custom_song_screen_id"
+        android:gravity="center"
+        />
+    <eu.gsottbauer.equalizerview.EqualizerView
+        android:id="@+id/custom_song_screen_equalizer_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:barColor="@color/colorYahoo"
+        app:barCount="1"
+        app:barAnimationDuration="2000"
+        app:barWidth="5p"
+        app:marginLeft="1dp"
+        android:padding="15dp"
+        app:marginRight="1dp"
+        app:runInBatterySaveMode="true|false"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/custom_song_screen_name"
+            android:paddingTop="10dp"
+            android:textSize="14dp"
+            android:textColor="@color/colorWhite"
+            android:text="2Pac - Hit Em Up (Dirty) (Offical . . ."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/custom_song_screen_artist"
+            android:text="Unknown artist"
+            android:textColor="@color/colorChangeCity"
+            android:layout_weight="1"
+            android:paddingBottom="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/ic_overflow"/>
+    </LinearLayout>
+
+</LinearLayout>

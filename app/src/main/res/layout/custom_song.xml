@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:paddingTop="3dp">
+    <ImageView
+        android:layout_width="0dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/custom_song_img"
+        android:src="@drawable/song_empty"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/custom_song_name"
+            android:paddingTop="10dp"
+            android:textSize="14dp"
+            android:textColor="@color/colorBlack"
+            android:text="2Pac - Hit Em Up (Dirty) (Offi..."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/custom_song_artist"
+            android:text="Unknown artist"
+            android:layout_weight="1"
+            android:paddingBottom="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:src="@drawable/ic_add_to_np"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/custom_item_music"/>
+    </LinearLayout>
+
+</LinearLayout>

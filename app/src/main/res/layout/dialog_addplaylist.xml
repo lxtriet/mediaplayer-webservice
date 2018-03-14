@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Tạo Playlist"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/title_dialog"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên playlist"
+            android:textSize="15dp"
+            android:layout_below="@+id/title_dialog"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/playlist_name"
+            android:layout_margin="15dp"
+            android:textColorHint="@color/colorArrowDown"
+            android:background="@drawable/border_bottom_gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/playlist_name"
+            android:id="@+id/templinear"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Tạo"
+                android:id="@+id/create_playlist"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/colorGreen2"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Hủy"
+                android:id="@+id/btn_dismiss"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/colorGoogle"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

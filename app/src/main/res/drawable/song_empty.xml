@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp"
+                />
+            <solid android:color="@color/colorGray"/>
+            <stroke android:width="0px" android:color="@color/colorChangeCity"/>
+        </shape>
+    </item>
+    <item
+        android:bottom="10dp"
+        android:left="12dp"
+        android:right="12dp"
+        android:top="10dp">
+        <bitmap
+            android:src="@drawable/ic_default_song"
+            android:gravity="center"
+            />
+    </item>
+</layer-list>
